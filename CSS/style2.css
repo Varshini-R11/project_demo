@@ -1,16 +1,13 @@
 body{
-    background-image: url("https://img.freepik.com/free-vector/volunteers-helping-disabled-friends-outdoor-walking_74855-7933.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: lightgreen;
     overflow: hidden;
 }
 .regform{
     width: 500px;
-    margin: 250px auto;
-    padding:  20px 20px 20px; 
+    margin: 100px auto;
+    padding:  10px 10px 10px; 
     background-color: rgba(0, 0, 0, .5);
-    height: 400px;
+    height: 500px;
     font-size: 20px;
 }
 h2{
@@ -29,13 +26,14 @@ h2{
     box-sizing: border-box;
     margin: 5px 0px 10px;
 }
-.btn{
+.submit{
     text-align: center; 
     margin-top: 20px;
+    text-decoration: none;
 }
 button{
-    background-color: green;
     height: 30px;
     width: 100px;
     padding: 10px;
+    border-radius: 10px;
 }
